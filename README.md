@@ -19,12 +19,17 @@ Siga as etapas abaixo para configurar o ambiente de desenvolvimento:
     composer install
     ```
 
-2. **Gerar a chave da aplicação**:
+2. **Gerar o arquivo .env**:
+    ```bash
+    cp .env.example .env
+    ```   
+    
+3. **Gerar a chave da aplicação**:
     ```bash
     php artisan key:generate
     ```
 
-3. **Iniciar o servidor de desenvolvimento**:
+4. **Iniciar o servidor de desenvolvimento**:
     ```bash
     php artisan serve
     ```
